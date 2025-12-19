@@ -1,0 +1,93 @@
+# ========================================
+# SUBMISSION ETL PIPELINE - FASHION STUDIO
+# ========================================
+
+# Nama: Fauzan Suryahadi
+# Email: fs23.yayan@gmail.com
+# Program: Belajar Fundamental Pemrosesan Data
+
+# ========================================
+# CARA MENJALANKAN SKRIP ETL PIPELINE
+# ========================================
+
+# Menjalankan ETL pipeline lengkap (extract, transform, load)
+python3 main.py
+
+# Atau jika menggunakan python tanpa versi:
+python main.py
+
+
+# ========================================
+# CARA MENJALANKAN UNIT TEST
+# ========================================
+
+# Menjalankan semua unit test pada folder tests
+python3 -m pytest tests/
+
+# Menjalankan unit test dengan verbose output
+python3 -m pytest tests/ -v
+
+# Menjalankan unit test untuk file spesifik
+python3 -m pytest tests/test_extract.py
+python3 -m pytest tests/test_transform.py
+python3 -m pytest tests/test_load.py
+
+
+# ========================================
+# CARA MENJALANKAN TEST COVERAGE
+# ========================================
+
+# Menjalankan test coverage pada folder tests
+coverage run -m pytest tests/
+
+# Melihat report coverage di terminal
+coverage report
+
+# Melihat report coverage detail dengan missing lines
+coverage report -m
+
+# Generate HTML report (lebih detail dan visual)
+coverage html
+
+# Setelah generate HTML, buka file htmlcov/index.html di browser
+
+
+# ========================================
+# URL GOOGLE SHEETS
+# ========================================
+
+https://docs.google.com/spreadsheets/d/19p-1wqJ1fkplCMBVyELMthm1Pvjc-hCAqlf0By9W5cY/edit
+
+
+# ========================================
+# INFORMASI TAMBAHAN
+# ========================================
+
+# Struktur Proyek:
+# submission-pemda/
+# ├── tests/
+# │   ├── __init__.py
+# │   ├── test_extract.py
+# │   ├── test_transform.py
+# │   └── test_load.py
+# ├── utils/
+# │   ├── __init__.py
+# │   ├── extract.py
+# │   ├── transform.py
+# │   └── load.py
+# ├── main.py
+# ├── requirements.txt
+# ├── submission.txt
+# ├── products.csv
+# └── google-sheets-api.json
+
+# Data yang dihasilkan:
+# - CSV: products.csv (867 rows setelah cleaning)
+# - Google Sheets: Lihat URL di atas
+# - PostgreSQL: (Optional) Database fashion_products, table products
+
+# Catatan:
+# - ETL pipeline berhasil scrape 1000 data dari 50 halaman
+# - Setelah transformasi (cleaning), tersisa 867 data valid
+# - Data tersimpan dalam 3 repositori: CSV, Google Sheets, PostgreSQL (optional)
+# - Test coverage target: ≥80% untuk mendapatkan nilai Advanced
