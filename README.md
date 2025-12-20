@@ -52,12 +52,12 @@ coverage report
 ## 📊 Data Output
 
 - **CSV**: `products.csv` (867 valid products)
-- **Google Sheets**: [Link to your sheet]
+- **Google Sheets**: [[Link to your sheet](https://docs.google.com/spreadsheets/d/19p-1wqJ1fkplCMBVyELMthm1Pvjc-hCAqlf0By9W5cY/edit?usp=drive_link)]
 - **PostgreSQL**: Database `fashion_products`, table `products`
 
 ## 🧪 Test Coverage
 
-Target: ≥80% for Advanced point
+Target: ≥80%
 Current: 85%+
 
 ## 📝 License
@@ -68,5 +68,3 @@ MIT License - see LICENSE file for details
 
 Fauzan Suryahadi - Dicoding Submission
 ```
-
----
