@@ -1,12 +1,12 @@
 # Fashion Studio ETL Pipeline
 
-ETL Pipeline for scraping, transformation, and loading of fashion product data from Fashion Studio website.
+ETL Pipeline for scraping, transforming, and loading fashion product data from Fashion Studio website.
 
 ## 🎯 Features
 
 - ✅ Web scraping 1000+ products from 50 pages
 - ✅ Data cleaning and transformation
-- ✅ Currency convertion (USD → IDR)
+- ✅ Currency conversion (USD → IDR)
 - ✅ Export to multiple repositories (CSV, Google Sheets, PostgreSQL)
 - ✅ Unit tests with coverage ≥85%
 - ✅ Error handling and logging
