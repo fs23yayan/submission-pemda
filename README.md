@@ -67,4 +67,3 @@ MIT License - see LICENSE file for details
 ## 👤 Author
 
 Fauzan Suryahadi - Dicoding Submission
-```
