@@ -1,17 +1,17 @@
 # Fashion Studio ETL Pipeline
 
-ETL Pipeline untuk scraping, transformasi, dan loading data produk fashion dari website Fashion Studio.
+ETL Pipeline for scraping, transformation, and loading of fashion product data from Fashion Studio website.
 
-## 🎯 Fitur
+## 🎯 Features
 
-- ✅ Web scraping 1000+ produk dari 50 halaman
-- ✅ Data cleaning dan transformasi
-- ✅ Konversi mata uang (USD → IDR)
-- ✅ Export ke multiple repositories (CSV, Google Sheets, PostgreSQL)
-- ✅ Unit tests dengan coverage ≥85%
-- ✅ Error handling dan logging
+- ✅ Web scraping 1000+ products from 50 pages
+- ✅ Data cleaning and transformation
+- ✅ Currency convertion (USD → IDR)
+- ✅ Export to multiple repositories (CSV, Google Sheets, PostgreSQL)
+- ✅ Unit tests with coverage ≥85%
+- ✅ Error handling and logging
 
-## 🛠️ Teknologi
+## 🛠️ Technology
 
 - Python 3.9+
 - BeautifulSoup4 - Web scraping
@@ -51,13 +51,13 @@ coverage report
 
 ## 📊 Data Output
 
-- **CSV**: `products.csv` (867 produk valid)
+- **CSV**: `products.csv` (867 valid products)
 - **Google Sheets**: [Link to your sheet]
 - **PostgreSQL**: Database `fashion_products`, table `products`
 
 ## 🧪 Test Coverage
 
-Target: ≥80% untuk nilai Advanced
+Target: ≥80% for Advanced point
 Current: 85%+
 
 ## 📝 License
@@ -66,19 +66,7 @@ MIT License - see LICENSE file for details
 
 ## 👤 Author
 
-[Your Name] - Dicoding Submission
+Fauzan Suryahadi - Dicoding Submission
 ```
 
 ---
-
-### **Langkah 3: First Commit**
-
-Di GitHub Desktop:
-
-1. **Summary:** `Initial commit - ETL Pipeline project`
-2. **Description:**
-```
-   - Added extract, transform, load modules
-   - Added unit tests with 85%+ coverage
-   - Added main orchestrator
-   - Added documentation and requirements
